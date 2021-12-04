@@ -39,8 +39,10 @@ Prerequisites
 
 ++Check Chrome Version
 
-In config.py change the chromedriver_path to the local path of where your ChromeDriver executable file is located
+In config.py change the chromedriver_path to the local path of where your ChromeDriver executable file is located 
+
 chromedriver_path = "C:\chromedrivers\chromedriver.exe"
+
 Adjustments you can make in config.py to tweak the bot to your liking. (Please be aware of Instagram's daily limits for likes and comments to avoid getting banned.)
 
 
@@ -53,14 +55,21 @@ USERNAME = "xxx"
 PASSWORD = "xxx"
 
 Run the script. Enjoy your Instagram bot!
+
 python insta-bot.py
+
 File Structure
+
 Twitter-Retweet-Bot
- |-- config.py
- |-- credentials.py
- |-- insta-bot.py
+
+|-- config.py
+
+|-- credentials.py
+
+|-- insta-bot.py
  
 Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
 
