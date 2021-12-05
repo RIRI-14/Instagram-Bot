@@ -1,29 +1,25 @@
 # Instagram-Bot
-An Instagram bot written in Python using Selenium on Google Chrome. It is a basic bot and it will like the first post displayed on your login page and save the post.
+Instagram-Bot
+
+An Instagram bot is written in Python using Selenium on Google Chrome. It is a basic bot and it will like the first post displayed on your login page and save the post.
 
 Table of Contents
 
-->Getting Started
-->Prerequisites
-->Instructions
-->File Structure
-->Demo
-->Contributing
-->Creator / Maintainer
-->Additional Information
-->Getting Started
+->Getting Started ->Prerequisites ->Instructions ->Structure of the Project ->Demos And Screenshots ->Creator / Maintainer ->Additional Information
 
-###Please be aware of Instagram's daily limits for likes and comments to avoid getting your account banned.
+##Please be aware of Instagram's daily limits for likes and comments to avoid getting your account banned.
 
 Prerequisites
 
-++Python 3
+++Python Version - 3 or higher
 
-++Pip - a python package manager
+++Anaconda/Spyder - Interpreter And IDE to ensure smooth working of the program
 
-++Download this file, open a command prompt and navigate to the folder containing the get-pip.py installer, and run python get-pip.py to install
+++Pip - A python package manager in the Anaconda Command Prompt
 
-++Run pip --version to check if it has installed correctly
+++Download the file, open the command prompt and navigate to the folder containing the get-pip.py installer, and run python get-pip.py to install
+
+++Run pip --version to check if it has been installed correctly
 
 ++ChromeDriver - a WebDriver for Chrome
 
@@ -31,22 +27,22 @@ Prerequisites
 
 ++Selenium - a python package used to automate web browser interaction pip install -U selenium
 
-++Instructions
+++Important nstructions
 
-++Download ChromeDriver and extract the file.
+++Download the ChromeDriver and extract the file and store it in the C Drive in a particular folder. Then copy the path of this folder carefully as it is important for web scrapping.
 
-++Check the version of your Google Chrome and download the matching ChromeDriver version
-
-++Check Chrome Version
-
-In config.py change the chromedriver_path to the local path of where your ChromeDriver executable file is located 
+For eg: If you name the folder chromedrivers in the C Drive then the path would look like-
 
 chromedriver_path = "C:\chromedrivers\chromedriver.exe"
 
-Adjustments you can make in config.py to tweak the bot to your liking. (Please be aware of Instagram's daily limits for likes and comments to avoid getting banned.)
+++Check Chrome Version
+
+++Check the version of your Google Chrome and download the matching ChromeDriver version
 
 
-Create a file named credentials.py to hold your account login information using the format below.
+Adjustments you can make in config.py to tweak the bot to your liking.
+
+Save and Name the file where you work as InstagramAutomationBot.py in order to keep the work safe and secure.
 
 See File Structure for where the file should be placed.
 
@@ -56,22 +52,15 @@ PASSWORD = "xxx"
 
 Run the script. Enjoy your Instagram bot!
 
-python insta-bot.py
+python InstagramAutomationBot.py
 
 File Structure
 
-Twitter-Retweet-Bot
+|-- InstagramAutomationBot.py
 
-|-- config.py
-
-|-- credentials.py
-
-|-- insta-bot.py
- 
 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
-
 
 If you have any questions, comments, or concerns, feel free to contact me below.
 
